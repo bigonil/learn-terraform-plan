@@ -45,5 +45,5 @@ module "hello" {
     second_hello = "World"
   }
 
-  some_key = "secret"
+   some_key = var.secret_key
 }

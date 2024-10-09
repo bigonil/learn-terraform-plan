@@ -3,7 +3,9 @@
 
 provider "aws" {
   region = var.region
+  profile = "lb-aws-admin"
 }
+
 
 provider "random" {}
 

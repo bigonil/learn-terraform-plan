@@ -12,7 +12,9 @@ terraform {
       source  = "hashicorp/random"
       version = "3.5.1"
     }
+    
   }
+
   /* Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
     organization = "organization-name"
